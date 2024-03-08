@@ -1,0 +1,366 @@
+{
+  "name": "project",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Hardware",
+        "files": [
+          {
+            "path": "../Hardware/AD.c"
+          },
+          {
+            "path": "../Hardware/AD.h"
+          },
+          {
+            "path": "../Hardware/initial.c"
+          },
+          {
+            "path": "../Hardware/initial.h"
+          },
+          {
+            "path": "../Hardware/KEY.c"
+          },
+          {
+            "path": "../Hardware/KEY.h"
+          },
+          {
+            "path": "../Hardware/lcd1602.c"
+          },
+          {
+            "path": "../Hardware/lcd1602.h"
+          },
+          {
+            "path": "../Hardware/LED.c"
+          },
+          {
+            "path": "../Hardware/LED.h"
+          },
+          {
+            "path": "../Hardware/OLED_Data.c"
+          },
+          {
+            "path": "../Hardware/OLED_Data.h"
+          },
+          {
+            "path": "../Hardware/OLED.c"
+          },
+          {
+            "path": "../Hardware/OLED.h"
+          },
+          {
+            "path": "../Hardware/PWM.c"
+          },
+          {
+            "path": "../Hardware/PWM.h"
+          },
+          {
+            "path": "../Hardware/UI.c"
+          },
+          {
+            "path": "../Hardware/UI.h"
+          },
+          {
+            "path": "../System/MyDMA.c"
+          },
+          {
+            "path": "../System/MyDMA.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Libraries",
+        "files": [
+          {
+            "path": "../Libraries/misc.c"
+          },
+          {
+            "path": "../Libraries/misc.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_adc.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_adc.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_bkp.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_bkp.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_can.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_can.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_cec.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_cec.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_crc.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_crc.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_dac.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_dac.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_dbgmcu.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_dbgmcu.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_dma.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_dma.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_exti.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_exti.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_flash.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_flash.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_fsmc.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_fsmc.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_gpio.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_gpio.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_i2c.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_i2c.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_iwdg.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_iwdg.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_pwr.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_pwr.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_rcc.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_rcc.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_rtc.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_rtc.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_sdio.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_sdio.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_spi.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_spi.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_tim.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_tim.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_usart.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_usart.h"
+          },
+          {
+            "path": "../Libraries/stm32f10x_wwdg.c"
+          },
+          {
+            "path": "../Libraries/stm32f10x_wwdg.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Start",
+        "files": [
+          {
+            "path": "../start/core_cm3.c"
+          },
+          {
+            "path": "../start/core_cm3.h"
+          },
+          {
+            "path": "../start/startup_stm32f10x_md.s"
+          },
+          {
+            "path": "../start/stm32f10x.h"
+          },
+          {
+            "path": "../start/system_stm32f10x.c"
+          },
+          {
+            "path": "../start/system_stm32f10x.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "System",
+        "files": [
+          {
+            "path": "../System/Delay.c"
+          },
+          {
+            "path": "../System/Delay.h"
+          },
+          {
+            "path": "../System/MyFLASH.c"
+          },
+          {
+            "path": "../System/MyFLASH.h"
+          },
+          {
+            "path": "../System/Store.c"
+          },
+          {
+            "path": "../System/Store.h"
+          },
+          {
+            "path": "../System/sys.c"
+          },
+          {
+            "path": "../System/sys.h"
+          },
+          {
+            "path": "../System/timer.c"
+          },
+          {
+            "path": "../System/timer.h"
+          },
+          {
+            "path": "../System/uart.c"
+          },
+          {
+            "path": "../System/uart.h"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "User",
+        "files": [
+          {
+            "path": "../User/config.h"
+          },
+          {
+            "path": "../User/main.c"
+          },
+          {
+            "path": "../User/stm32f10x_conf.h"
+          },
+          {
+            "path": "../User/stm32f10x_it.c"
+          },
+          {
+            "path": "../User/stm32f10x_it.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "bc1d40f08f473996b9359ba4bd12deb3"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M3",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "stm32_flash.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "ST",
+          "cpuName": "STM32F103C8"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../start",
+          "../User",
+          "../Libraries",
+          "../System",
+          "../Hardware",
+          ".cmsis/include",
+          "../RTE/_Target 1",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "USE_STDPERIPH_DRIVER"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}
